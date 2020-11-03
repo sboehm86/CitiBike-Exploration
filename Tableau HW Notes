@@ -1,0 +1,29 @@
+Tabluea HW
+
+Citibike Data
+
+I have downloaded data from this year (2020) because I want to see the change
+in business brought on by the COVID 19 lockdowns. The data ranges from Jan to
+Sep 2020 and details locations, time, birth year of users etc...
+
+https://s3.amazonaws.com/tripdata/index.html
+https://stackoverflow.com/questions/22258491/read-a-small-random-sample-from-a-big-csv-file-into-a-python-data-frame
+
+files are way too big to load all directly so will sample the data with python
+found a code snippet that helped select from the data a set amount of random
+samples (stack overflow).
+
+used a union to join the data
+manually cleaned erroneous columns in data after dt split
+
+Subscriber rate
+Age group changes
+Daily users
+
+
+per Citibike: This data has been processed to remove trips that are taken by
+staff as they service and inspect the system, trips that are taken to/from any
+of our “test” stations (which we were using more in June and July 2013), and
+any trips that were below 60 seconds in length (potentially false starts or
+users trying to re-dock a bike to ensure it's secure).
+Gender (0=unknown; 1=male; 2=female)
