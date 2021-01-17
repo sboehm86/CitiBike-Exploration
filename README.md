@@ -1,3 +1,5 @@
-# Tableau-Homework
+# Citi-Bike Exploration
 
-Homework utilizing Tableau and CitiBike data to demonstrate usage patterns 
+Homework for Data Analysis Bootcamp utilizing Tableau and CitiBike data to demonstrate usage patterns.
+
+
